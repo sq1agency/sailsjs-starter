@@ -1,4 +1,16 @@
-# sailsJS-boilerplate
+# SailsJS Starter
+This starter kit is for project APIs that may require an access-control layer. Huge thanks to @jcharrel For creating the initial boilerplate.
+
+Feel free to open a pull-request if you have an idea or improvement!
+
+To view an example, check out the `examples` branch!
+
+## Usage
+
+1. `./bin/bootstrap` (may need `sudo`).
+2. `./bin/dev-start`
+3. Accessible at at `http://localhost:3000`
+
 A boilerplate for the Sails.JS API framework.  This particular boiler plate provides a `/users` endpoint which supports:
 
 + Creating/updating users
@@ -9,14 +21,6 @@ Additionally it supports JSON web tokens for ACL policy validation and stateless
 
 ## Requirements
 - [Node.js](http://nodejs.org/)
-
-## Up and Running
-
-1. `git clone git@github.com:sq1agency/sailsJS-boilerplate.git`
-2. `cd sailsJS-boilerplate`
-3. `npm install` (may need `sudo`).
-4. `npm run dev`
-5. Accessible at at `http://localhost:3000`
 
 ### Errors to handle
 #### 1. Unable to check your npm-version:
