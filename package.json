@@ -1,8 +1,8 @@
 {
-  "name": "sails-boilerplate-api",
+  "name": "sailsjs-starter",
   "private": true,
   "version": "0.1.0",
-  "description": "Sails.JS Boilerplate API",
+  "description": "SailsJS Starter Kit",
   "keywords": [],
   "scripts": {
     "preinstall": "sudo npm install -g sails",
